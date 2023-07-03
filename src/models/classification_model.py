@@ -1,15 +1,7 @@
 import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
 from sklearn.mixture import GaussianMixture
-from scipy.optimize import curve_fit
 
-import utils.funcs as fn
 
-#loading our file
-fname ='../data/interim/chain_distribution.csv'
-chains_distribution = pd.read_csv(fname)
-original_distro = pd.read_csv('../data/raw/Dataset.csv')
 
 
 

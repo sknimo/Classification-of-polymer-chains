@@ -1,19 +1,15 @@
-
+import numpy as np
+from scipy.optimize import curve_fit
 
 
 def gaussian_func(x,*params):
-    """ generate the Gaussian distribution
-    Args:
-        x(array): the chain lengths
-        params[list]: [amplitude,mean,standard deviation] parameters required for generating the Gaussian distribution
-    returns:
-        y(array): generated distribution
-    Note:
-        if the length of params is more than 3, then we will have a mixture of Gaussian"""
-    y = np.zeros_like(x)
-    # in case the output is made of arrays convert to list
-    if type(params) == np.ndarray:
+    """ generate the gaussian distribution"""
+    # the optimization routine returns an array instead of a list
+    if type(params[0])==np.ndarray:
         params = np.concatenate(params).tolist()
+    y = np.zeros_like(x)
+    if type(params) == tuple:
+        params = list(params)
     for i in range(0,len(params),3):
         amp= params[i] # amplitude
         ctr = params[i+1] # peak location
