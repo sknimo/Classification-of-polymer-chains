@@ -37,7 +37,7 @@ The subpopulations in a molecular weight distribution can be identified using Ma
 ## Tools used in this project
 ---
 * Packages: Anaconda
-* Libraries: Pandas, Numpy, Scipy, Matplotlib, Seaborn
+* Libraries: Pandas, Numpy, Scipy, Matplotlib, Seaborn, Scikit-learn
 * Web applications: Jupyter notebook
 * Programming languages: Python 3, Latex
 
