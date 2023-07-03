@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 plt.style.use('ggplot')
 
-plotting the error
+#plotting the error
 error = pd.read_csv('../data/processed/errors.csv')
 
 fig = plt.figure(figsize=(4, 3))

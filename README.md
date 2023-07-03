@@ -3,7 +3,7 @@
 ![Image of polymer chains](https://augustrs.com/wp-content/uploads/2020/02/Polymer-Chain_1.jpg)
 <sub><sup>Image source: https://augustrs.com/wp-content/uploads/2020/02/Polymer-Chain_1.jpg</sup></sub>
 
-Making use of unsupervised learning to perform peak deconvolution on molecular weight distributions of polymers
+In this project Machine learning techniques would be employed to segment polymer chains into their respective subpopulations given a molecular weight distribution.
 
 ### Table of Contents
 - [**Introduction**](#introduction)
@@ -14,9 +14,10 @@ Making use of unsupervised learning to perform peak deconvolution on molecular w
 
 ## Introduction
 ---
->A classification algorithm was used to segment polymer chains into production site based on their chain length. The motivation of this project is to identify the various clusters in a molecular weight distribution of polymer chains and use such information to perform peak deconvolutions. Traditionally peak deconvolution is done using commercial softwares which require the user to be able to manually indicate the peak locations prior to the deconvolution. But with the production by day of more complex materials a distribution that may seem to have two cluster could actually contain more which are invisible to the eye. This program uses machine learning to identify all clusters and subsequently performs a peak deconvolution.
+>A classification algorithm was used to segment polymer chains into the production site they might have originated from. The motivation of this project is to identify the various clusters in a molecular weight distribution of polymer chains and use such information to perform peak deconvolutions. Traditionally peak deconvolution is done using commercial software which require the user to be able to manually indicate the peak locations prior to the deconvolution. But with the production by day of more complex materials a distribution that may seem to have two cluster could actually contain more which are invisible to the eye. This program uses machine learning to identify all clusters and subsequently performs a peak deconvolution.
 
 ### Project structure
+
 * the folder 'reports' contains:
     * the executive summary
     * notes on data preprocessing
@@ -29,7 +30,7 @@ The dataset was digitized from a paper published by [*kwakye-Nimo et al.(2022)*]
 
 ## Key insights
 ---
-The subpopulations in a molecular weight distribution can be identified using Machine learning. With knowledge of the sub-population characteristics and optimization routine can be subsequently used to effectively perform peak deconvolution. This method removes the need for the user to know ahead of time the characteristics of the peaks he is seeking to identify.
+The subpopulations in a molecular weight distribution can be identified using Machine learning. With knowledge of the sub-population characteristics an optimization routine can be subsequently used to effectively perform peak deconvolution. This method eliminates the need for the user to know ahead of time the characteristics of the peaks he is seeking to identify.
 
 
 ![Image result](reports/figures/deconvoluted.png)
@@ -39,5 +40,5 @@ The subpopulations in a molecular weight distribution can be identified using Ma
 * Packages: Anaconda
 * Libraries: Pandas, Numpy, Scipy, Matplotlib, Seaborn
 * Web applications: Jupyter notebook
-* Programming languages: Python 3, Latex
+* Programming languages: Python 3, LaTeX
 
