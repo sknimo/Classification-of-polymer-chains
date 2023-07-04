@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 plt.style.use('ggplot')
 
-#plotting the error
+# plotting the error
 error = pd.read_csv('../data/processed/errors.csv')
 
-fig = plt.figure(figsize=(4, 3))
+fig = plt.figure(figsize=(5, 4))
 plt.plot(error.n_comps, error.error, 'b-*', lw=3)
 plt.xlabel('no. of clusters', fontsize=14)
 plt.ylabel('$\Delta \; AUC$', fontsize=14)
@@ -63,7 +63,6 @@ ax.plot(df_3comp.iloc[:, 0], hmw, 'g', lw=3, label='high weights', alpha=0.7)
 plt.legend(loc='best')
 ax.set_xlabel('$Log \; M$', fontsize=14)
 ax.set_ylabel('$dw/dLogM$', fontsize=14)
-plt.title('Deconvolution of molecular weight distribution')
 plt.savefig('visualization/deconvoluted.png',
             bbox_inches='tight', dpi=300)
 plt.show()

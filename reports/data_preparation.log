@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.3)  3 JUL 2023 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.3)  4 JUL 2023 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,16 +860,16 @@ Package rerunfilecheck Info: File `data_preparation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21196 strings out of 478008
- 409566 string characters out of 5839803
+ 21198 strings out of 478008
+ 409580 string characters out of 5839803
  1857330 words of memory out of 5000000
- 40926 multiletter control sequences out of 15000+600000
+ 40928 multiletter control sequences out of 15000+600000
  514099 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 101i,14n,104p,391b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,14n,104p,415b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-Output written on data_preparation.pdf (2 pages, 23022 bytes).
+Output written on data_preparation.pdf (2 pages, 26781 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
